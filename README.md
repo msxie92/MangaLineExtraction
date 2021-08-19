@@ -36,7 +36,8 @@ Example:
 
 The outputs will be clipped to 0-255.
 
-
-
+```
+ THEANO_FLAGS='device=cuda0,dnn.enabled=False,gcc.cxxflags=-Wno-narrowing' python test_mse.py ./Arisa ./output
+```
 
 For more details please take a look at the source files. Thanks.
