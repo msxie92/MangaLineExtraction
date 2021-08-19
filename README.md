@@ -13,8 +13,9 @@ Please use this file as the pre-trained weight for testing.
 +  Python3
 +  keras==1.2.0 (1.2.2 is okay too)
 +  theano==0.9
-+  python-opencv
-+  h5py
++  python-opencv==3.4.2.17
++  h5py==2.10.0
++  pygpu==0.6.9
 +  cuda is optional but highly recommended
 
 It's strongly recommended to use virtualenv to build the testing environment.
